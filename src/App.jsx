@@ -15,6 +15,9 @@ function App() {
           <button type="button" onClick={() => setCount((count) => count + 1)}>
             count is: {count}
           </button>
+         <button type="decrease" onClick={() => setCount((count) => count - 1)}>
+            count is: {count}
+          </button>
         </p>
         <p>
           Edit <code>App.jsx</code> and save to test HMR updates.
